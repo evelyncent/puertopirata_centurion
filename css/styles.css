@@ -2226,7 +2226,8 @@ left: 650px;
    position: absolute;
    left: 70px;
    top: 150px;
-}
+   
+ }
 .foto1{
   grid-area: foto1;
   width: 450px;
@@ -2234,10 +2235,13 @@ left: 650px;
   flex-direction: rows;
   position: relative;
   top: 200px;
- 
+  transition: width 2s;
+  box-shadow:5px 5px 5px grey;
+ }
 
-
-}
+ .foto1:hover{
+  width:500px;
+ }
 .foto2{
   grid-area: foto2;
   width: 450px;
@@ -2245,12 +2249,13 @@ display: flex;
 flex-direction: rows;
 position: relative;
   top: 200px;
- 
-  
- 
+  transition: width 2s;
+  box-shadow:5px 5px 5px grey;
+ }
+ .foto2:hover{
+  width:500px;
+ }
 
-
-}
 .foto4{
   grid-area: foto4;
   width: 450px;
@@ -2258,11 +2263,12 @@ position: relative;
     flex-direction: rows;
     position: relative;
   top: 200px;
- 
-   
- 
-  
+  transition: width 2s;
+box-shadow:5px 5px 5px grey;
 }
+.foto4:hover{
+  width:500px;
+ }
 .foto5{
   grid-area: foto5;
   width: 450px;
@@ -2270,68 +2276,97 @@ position: relative;
   position: absolute;
   top: 500px;
   right: 1080px;
-
- 
+transition: width 2s;
+ box-shadow:5px 5px 5px grey;
   
 }
+.foto5:hover{
+  width:500px;
+ }
 .foto6{
   grid-area: foto6;
 width: 450px;
 position: absolute;
   top: 500px;
   left:470px;
-
- 
+transition: width 2s;
+ box-shadow:5px 5px 5px grey;
 }
+.foto6:hover{
+  width:500px;
+ }
 .foto7{
   grid-area: foto7;
 width:450px;
 position: absolute;
   top: 500px;
   left: 935px;
-
- 
+transition: width 2s;
+ box-shadow:5px 5px 5px grey;
 }
+.foto7:hover{
+  width:500px;
+ }
 .foto8{
   grid-area:foto8;
 width: 450px;
 position: absolute;
   top: 800px;
   right: 1080px;
- 
-
+ transition: width 2s;
+box-shadow:5px 5px 5px grey;
 }
+.foto8:hover{
+  width:500px;
+ }
 .fotosalon{
   grid-area:fotosalon ;
 width: 450px;
 position: absolute;
   top: 800px;
   left: 470px;
-
+   transition: width 2s;
+box-shadow:5px 5px 5px grey;
 }
+.fotosalon:hover{
+  width:500px;
+ }
 .foto60{
   grid-area:foto60 ;
 width: 450px;
 position: absolute;
   top: 800px;
   left: 935px;
-
+ transition: width 2s;
+ box-shadow:5px 5px 5px grey;
 }
+.foto60:hover{
+  width:500px;
+ }
 .foto9{
   grid-area:foto9;
 width: 450px;
 position: absolute;
 top: 1100px;
 right: 1080px;
-
+ transition: width 2s;
+ box-shadow:5px 5px 5px grey;
 }
+.foto9:hover{
+  width:500px;
+ }
 .fotocumple{
   grid-area:fotocumple ;
 width: 450px;
 position: absolute;
 top: 1100px;
 left: 470px;
+ transition: width 2s;
+ box-shadow:5px 5px 5px grey;
 }
+.fotocumple:hover{
+  width:500px;
+ }
 .foto11{
   grid-area:foto11 ;
   width: 450px;
@@ -2339,6 +2374,11 @@ left: 470px;
   top: 1100px;
   left: 935px;
   height: 250px;
+   transition: width 2s;
+   box-shadow:5px 5px 5px grey;
 }
+.foto11:hover{
+  width:500px;
+ }
     
  
