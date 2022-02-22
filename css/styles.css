@@ -17,9 +17,9 @@ main{
 @import url('https://fonts.googleapis.com/css2? family= Cormorán:wght@500 & family= Danza+Guión:wght@600 & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
 
-.border{
+/*.border{
 	border: 5px solid blue;
-}
+}*/
 
 .mainIndex{
  background-image: url("../assets/img/salon.jpg"); 
@@ -111,7 +111,7 @@ height: 100%;
   	
   	flex-direction:row;
   	justify-content: space-between;
-  	background-color: #13F8F9;
+  	background-image: linear-gradient(#13F8F9,white);
   	display: flex;
   	background-color: #13F8F9;
   	z-index: 1;
@@ -200,7 +200,7 @@ h1:hover{
 }
   footer{
   	grid-area: footer;
-  	background-color: #13F8F9;
+  	background-image: linear-gradient(#13F8F9,white);
        background-size: cover;
        margin-top:0px;
        margin-bottom:0px;
@@ -832,7 +832,7 @@ left:900px;
   	justify-content: space-between;
   	background-color: #13F8F9;
   	display: flex;
-  	background-color: #13F8F9;
+  	background-image: linear-gradient(#13F8F9,white);
   	z-index: 1;
   	position: fixed;
   	width:375px;
@@ -917,7 +917,7 @@ h1:hover{
 }
   footer{
   	grid-area: footer;
-  	background-color: #13F8F9;
+  	background-image: linear-gradient(#13F8F9,white);
        background-size: cover;
        margin-top:0px;
        margin-bottom:0px;
@@ -1555,7 +1555,8 @@ left:0px;
   	justify-content: space-between;
   	background-color: #13F8F9;
   	display: flex;
-  	background-color: #13F8F9;
+    background-image: linear-gradient(#13F8F9,white);
+  	
   	z-index: 1;
   	position: fixed;
   	width: 100%;
@@ -1617,7 +1618,7 @@ h1:hover{
   }
   footer{
   	grid-area: footer;
-  	background-color: #13F8F9;
+  	background-image: linear-gradient(#13F8F9,white);
        background-size: cover;
        margin-top:0px;
        margin-bottom:0px;
@@ -2223,7 +2224,7 @@ left: 650px;
     align-items: flex-start;
     flex-direction: rows;
    position: absolute;
-   left:50px;
+   left: 70px;
    top: 150px;
 }
 .foto1{
@@ -2268,6 +2269,7 @@ position: relative;
   height: 255px;
   position: absolute;
   top: 500px;
+  right: 1080px;
 
  
   
@@ -2295,6 +2297,7 @@ position: absolute;
 width: 450px;
 position: absolute;
   top: 800px;
+  right: 1080px;
  
 
 }
@@ -2319,6 +2322,7 @@ position: absolute;
 width: 450px;
 position: absolute;
 top: 1100px;
+right: 1080px;
 
 }
 .fotocumple{
