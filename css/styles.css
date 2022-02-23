@@ -4,33 +4,164 @@
 	list-style-type: none;
 	text-decoration: none;
 }
-body{
+/*body{
 	
 overflow-x: hidden;
-}
+}*/
 
-main{
-	background-color: #FCFAE2;
-	width: 100%;
-	height: auto;
-}
+/*main{
+  background-color: #FCFAE2;
+  width: 100%;
+  height: auto;
+}*/
 @import url('https://fonts.googleapis.com/css2? family= Cormorán:wght@500 & family= Danza+Guión:wght@600 & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
 
+
+/*INDEX CON BOOTSTRAP*/
+
+.index-nav1__logo--tamañoLogo{
+  width:100px ;
+  height:auto;
+  box-shadow: 1.5px 1.5px 1.5px grey;}
+
+
+header{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  background-color: #13F8F9;
+ 
+  background-image: linear-gradient(#13F8F9,white);
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  right: 20px;
+  }
+
+.ubicacionTitulo1{
+  display: inline;
+  position: relative;
+  bottom:0px;
+  }
+
+  .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: -92px;
+    list-style: none;
+  }
+ 
+  .index-nav1__ul{
+  display: flex;
+  padding: 35px;
+  position: relative;
+    left:850px;
+    bottom: 90px;
+} 
+.index-nav1__ul--formatoLi a{
+  color:black;
+  font-size:17px;
+  font-family: 'Cormorant', serif;
+  font-weight:bold ;
+  font-style: normal;
+  margin-left: 20px;
+  text-shadow: 1px 1px 1px grey;
+
+
+}
+
+
+.index-nav1__tituloLogo--formatoTitulo{
+  
+  font-size:35px;
+  font-family: 'Cormorant', serif;
+  font-weight:bold;
+  font-style: normal;
+  text-shadow:2px 2px 2px grey;
+}
+.index-nav1__ul--formatoLi:hover{
+  transform: scale(1.3);
+
+}
+a:hover{
+  color:white;
+  list-style-type: none;
+  text-decoration: none;
+}
+h1:hover{
+  color: white;
+ list-style-type: none;
+  text-decoration: none;
+}
+.index-nav1__tituloLogo--formatoTitulo:hover{
+  color: white;
+}
+
+footer{
+  background-image: linear-gradient(#13F8F9,white);
+  background-size: cover;
+ 
+  right: 20px;
+}
+
+  footer a p.index-nav1__tituloLogo--formatoTitulo{
+  color: black;
+  font-size:35px;
+  font-family: 'Cormorant', serif;
+  font-weight:bold ;
+  font-style: normal;
+  text-shadow:2px 2px 2px grey;
+
+
+}
+.div-redes1__a{
+ margin-left: 30px;
+     
+  }
+.redes{
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+  position: relative;
+ bottom: 40px;
+ padding-left:550px;
+  
+  
+      
+}
+.face:hover{
+  transform: scale(1.2);
+  color: white;
+  }
+  
+.wsp:hover{
+  transform: scale(1.2);
+  color: white;
+  }
+.insta:hover{
+    transform: scale(1.2);
+    color: white;
+  }
 /*.border{
 	border: 5px solid blue;
 }*/
 
-.mainIndex{
- background-image: url("../assets/img/salon.jpg"); 
- background-size: cover;
- margin-bottom:0px;
- overflow: hidden;
- background-attachment: :fixed;
- background-repeat:no-repeat;
- 
 
-  }
+
+.mainIndex{
+ background-image:url("../assets/img/salon.jpg"); 
+ background-size: cover;
+ background-attachment:fixed;
+ background-repeat:no-repeat;
+ position: relative;
+ height: 1000px;
+}
+
 
   .mainIndex__section--formatoHome{
   font-size:70px;
@@ -41,13 +172,15 @@ main{
 }
   .ubicacionHome1{
 text-align: center;
-margin-top:300px;
+margin-top:400px;
 margin-right:50px;
 text-shadow:2px 2px 2px black;
 }
 a{
 	color: black;
 }
+
+/*NOSOTROS*/
 
 .mainNosotros{
   background-color: #FCFAE2;
@@ -89,7 +222,7 @@ height: 100%;
 
   /*Mobile Horizontal*/
   @media  (max-width: 320px){
-  .formatoBody1 {  
+  /*.formatoBody1 {  
     display: grid;
     grid-template-columns:1fr;
     grid-template-rows: 110px 440px 110px;
@@ -265,7 +398,7 @@ text-shadow:2px 2px 2px black;
   	transform: scale(1.2);
   	color: white;
   }	
-  
+  */
 
   /*Pagina Nosotros*/
   .formatoBodyNosotros{
@@ -810,7 +943,7 @@ left:900px;
 
 /*Mobile Horizontal*/
 @media  (min-width: 321px) and (max-width: 480px){
-.formatoBody1 {  
+/*.formatoBody1 {  
     display: grid;
     grid-template-columns:1fr;
     grid-template-rows: 110px 440px 110px;
@@ -984,7 +1117,7 @@ left: 20px;
   	transform: scale(1.2);
   	color: white;
   }	
-  
+  */
 
   /*Pagina Nosotros*/
   .formatoBodyNosotros{
@@ -1533,8 +1666,8 @@ left:0px;
 
 
 
-  @media  (min-width: 1025px){
-.formatoBody1 {  
+  
+/*.formatoBody1 {  
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 800px 110px;
@@ -1664,9 +1797,9 @@ h1:hover{
   }
   .insta:hover{
   	transform: scale(1.2);
-  	color: white;
+  	color: white;*/
   }
-  
+@media (min-width: 1025px){
 /*Nosotros*/
   .formatoBodyNosotros {  
     display: grid;
