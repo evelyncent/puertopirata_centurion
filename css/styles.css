@@ -53,7 +53,7 @@ main{
 }
 
 .navbar-brand{
-  color: black !important;
+  
 
   font-size:30px;
   font-family: 'Cormorant', serif;
@@ -74,13 +74,9 @@ a:hover{
   text-decoration: none;
 }
 
-.navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 0.25rem;
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: black;
 }
 
 .ubicacionTitulo1 {
@@ -127,26 +123,23 @@ footer{
   font-style: normal;
   text-shadow:2px 2px 2px grey;
   z-index: 1;
+}
 
+
+.div-redes1__a{
+ margin-left:25px;
 
 }
-.div-redes1__a{
- margin-left: 25px;
-     
-  }
+
 .redes{
   display: flex;
- 
-  
   flex-direction: row;
   position: relative;
-top: 40px;
-right:70px;
- justify-content: flex-end;
-  
-  
-      
+  top: 40px;
+  right:70px;
+  justify-content: flex-end;
 }
+
 .face:hover{
   transform: scale(1.2);
   color: white;
