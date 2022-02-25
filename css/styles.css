@@ -23,6 +23,11 @@ main{
  right:10px;
  width: 90px;
 }
+.logo{
+ 
+  position: relative;
+  right: 10px;
+}
 .navbar-collapse{
   margin-left:600px;
  
@@ -83,15 +88,15 @@ a:hover{
     display: inline;
     position: relative;
     bottom: -6px;
-    left: 15px;
+    left: -17px;
 }
 
 
 .index-nav1__logo--tamañoLogo{
-  width:90px ;
+  width:110px ;
   height:auto;
-  box-shadow: 1.5px 1.5px 1.5px grey;
-
+  /*box-shadow: 1.5px 1.5px 1.5px grey;*/
+padding-right: 20px;
 }
 .navbar-nav{
  display: flex;
