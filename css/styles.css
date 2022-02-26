@@ -1534,7 +1534,7 @@ left:0px;
 
 
   @media  (min-width: 1025px){
-.formatoBody1 {  
+/*.formatoBody1 {  
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 800px 110px;
@@ -1665,7 +1665,7 @@ h1:hover{
   .insta:hover{
   	transform: scale(1.2);
   	color: white;
-  }
+  }*/
   
 /*Nosotros*/
   .formatoBodyNosotros {  
