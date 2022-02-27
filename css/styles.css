@@ -179,37 +179,82 @@ text-align: center;
 font-family:'Cormorant', serif ;
 font-size: 35px;
 }
-.mainNosotros{
-  background-color: #FCFAE2;
-  position: relative;
-  width:100%;
-  height:824px;
-  left: 20px;
-}
 
+/*.mainNosotros {
+    background-color: #FCFAE2;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 1228px;
+    left: 12px;
+    top: -28px;
+    buttom: 20px;
+}*/
+
+.mainNosotros {
+    background-color: #FCFAE2;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 1146px;
+    left: 12px;
+    top: -28px;
+    buttom: 20px;
+    margin-bottom: 74px;
+    margin-top: 0px;
+}
+/*.mainNosotros{
+
+  background-color: #FCFAE2;
+  background-size: cover;
+  position: absolute;
+  width:100%;
+  height:750px;
+  left: 12px;
+}
+*/
 
 
 .mainNosotros__formatoDiv{
 width: 100%;
+height: 300px;
 } 
- .timon{
+
+.blockquote {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 248px;
+    line-height: 3;
+    
+    font-family: 'Cormorant', serif;
+    font-size: 35px;
+}
+
+.timon {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 69px;
+}
+/* .timon{
     width:200px ;
   height: 200px;
-  position: absolute;
-
-
- 
-
-  }
+  position: relative;
+  top: 50px;
+}*/
 .footerNosotros{
   position: relative;
-  top:-2px;
+  top:1116px;
 }
 /*.imagenTimon{
    position:relative;
  margin-top:129px;
 
 }*/
+.divTimon{
+
+}
 
 .Servicios{
 background-color: #FCFAE2;
