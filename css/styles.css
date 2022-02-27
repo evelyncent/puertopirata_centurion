@@ -195,20 +195,21 @@ width: 100%;
  .timon{
     width:200px ;
   height: 200px;
-/* display: flex;
-margin-left:600px;
-  position:relative;
- top:30px;
-*/
+  position: absolute;
+
+
+ 
 
   }
 .footerNosotros{
   position: relative;
   top:-2px;
 }
-.imagenTimon{
-  
-}
+/*.imagenTimon{
+   position:relative;
+ margin-top:129px;
+
+}*/
 
 .Servicios{
 background-color: #FCFAE2;
