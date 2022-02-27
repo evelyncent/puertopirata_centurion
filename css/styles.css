@@ -9,6 +9,7 @@
 overflow-x: hidden;
 }*/
 
+<<<<<<< HEAD
 main{
   background-color: #FCFAE2;
 
@@ -18,6 +19,21 @@ main{
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
 
 /*INDEX CON BOOTSTRAP*/
+=======
+/*main{
+	background-color: #FCFAE2;
+	width: 100%;
+	height: auto;
+}*/
+@import url('https://fonts.googleapis.com/css2? family= Cormorán:wght@500 & family= Danza+Guión:wght@600 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
+
+/*.border{
+	border: 5px solid blue;
+}*/
+
+/*NOSOTROS CON BOOTSTRAP*/
+>>>>>>> nosotros
 .imagen{
  position: relative;
  right:10px;
@@ -163,6 +179,7 @@ footer{
 .d-block {
     margin-top: 50px;
     height: 408px;
+<<<<<<< HEAD
 }
 
 
@@ -199,25 +216,95 @@ a{
   background-color: #FCFAE2;
   width:375px;
   height: 440px;
+=======
+}
+
+.blockquote{
+  display: flex;
+  justify-content: center;
+>>>>>>> nosotros
   position: relative;
-
+  top: 200px;
+  line-height: 2;
+text-align: center;
+font-family:'Cormorant', serif ;
+font-size: 35px;
 }
 
+/*.mainNosotros {
+    background-color: #FCFAE2;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 1228px;
+    left: 12px;
+    top: -28px;
+    buttom: 20px;
+}*/
+
+.mainNosotros {
+    background-color: #FCFAE2;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 1146px;
+    left: 15px;
+    top: -28px;
+    buttom: 20px;
+    margin-bottom: 74px;
+    margin-top: 0px;
+}
+/*.mainNosotros{
+
+  background-color: #FCFAE2;
+  background-size: cover;
+  position: absolute;
+  width:100%;
+  height:750px;
+  left: 12px;
+}
+*/
+
+/*
 .mainNosotros__formatoDiv{
-align-items: center;
-justify-content: center;
-position: relative;
-left:350px;
+width: 100%;
+height: 300px;
+} */
 
+.texto{
+  margin-top: 20px;
+}
+.blockquote {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 248px;
+    line-height: 3;
+    
+    font-family: 'Cormorant', serif;
+    font-size: 35px;
+}
+
+.timon {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 69px;
+}
+
+.footerNosotros{
+  position: relative;
+  top:1116px;
+}
+/*.imagenTimon{
+   position:relative;
+ margin-top:129px;
+
+}*/
+.divTimon{
 
 }
-.index-nav1__ul1{
-	position: absolute;
-	right:25px;
-	display: flex;
-	margin-top:40px;
 
-}
 .Servicios{
 background-color: #FCFAE2;
 position:relative;
@@ -227,14 +314,9 @@ height: 100%;
 
 
 
-
-
-
-
-
-
   /*Mobile Horizontal*/
   @media  (max-width: 320px){
+<<<<<<< HEAD
   /*.formatoBody1 {  
     display: grid;
     grid-template-columns:1fr;
@@ -271,138 +353,11 @@ height: 100%;
 	
 	margin-left:80px;
 }
+=======
+>>>>>>> nosotros
   
-  .index-nav1__logo--tamañoLogo{
-  	
-	width:65px ;
-	height:auto;
-	box-shadow: 1.5px 1.5px 1.5px grey;
-}
-
-
-
-
-.index-nav1__ul{
-	position: absolute;
-	right:0px;
-	left: 10px;
-	display: flex;
-	justify-content:center;
-	margin-top: 75px;
-	
-
-}
-.index-nav1__ul--formatoLi a{
-	position: relative;
-  color:black;
-  font-size:10px;
-  font-family: 'Cormorant', serif;
-  font-weight:bold ;
-  font-style: normal;
-  margin-left:12px;
-  text-shadow: 1px 1px 1px grey;
-
-
-
-}
-
-.ubicacionTitulo1{
-  display: inline;
-  position: absolute;
-  bottom: 60px;
-  }
-
-.index-nav1__tituloLogo--formatoTitulo{
-	
-	font-size:25px;
-  font-family: 'Cormorant', serif;
-  font-weight:bold;
-  font-style: normal;
-  text-shadow:2px 2px 2px grey;
-}
-.index-nav1__ul--formatoLi:hover{
-	transform: scale(1.3);
-
-}
-a:hover{
-	color:white;
-}
-h1:hover{
-	color: white;
-}
-.index-nav1__tituloLogo--formatoTitulo:hover{
-	color: white;
-}
-  .mainIndex{
-  	grid-area: mainIndex;
-  	 background-image: url("../assets/img/salon.jpg"); 
- background-size:cover;
- margin-bottom:0px;
- overflow: hidden;
- background-attachment: :fixed;
- background-repeat:no-repeat;
- width:375px;
- height: 440px;
-}
-  footer{
-  	grid-area: footer;
-  	background-image: linear-gradient(#13F8F9,white);
-       background-size: cover;
-       margin-top:0px;
-       margin-bottom:0px;
-       display: flex;
-       flex-direction: row;
-
-    
-       
-  }
-  footer a p.index-nav1__tituloLogo--formatoTitulo{
-  color: black;
-  font-size:25px;
-  font-family: 'Cormorant', serif;
-  font-weight:bold ;
-  font-style: normal;
-  text-shadow:2px 2px 2px grey;
-  bottom:70px;
-
-
-
-}
-
-.mainIndex__section--formatoHome{
-  font-size:40px;
-  font-family: 'Cormorant', serif;
-  font-weight:normal ;
-  font-style: normal;
-  color: #FCFAE2;
-
- 
-}
-  .ubicacionHome1{
-  	
-text-align: center;
-margin-top:150px;
-text-shadow:2px 2px 2px black;
-
-}
-.div-redes1__a{
-   margin-left:15px;
-
-    
-  }
-  .redes{
-  	position: absolute;
-  	margin-left:100px;
-  	
-       padding-top:70px;
-     
-
-  }
-  .face:hover{
-  	transform: scale(1.2);
-  	color: white;
-  }
   
+<<<<<<< HEAD
   .wsp:hover{
   	transform: scale(1.2);
        color: white;
@@ -509,6 +464,8 @@ margin-right:15px;
 padding-right:30px ;
 
 }
+=======
+>>>>>>> nosotros
 /*Servicios*/
 .formatoBodyServicios {  
     display: grid;
@@ -956,6 +913,7 @@ left:900px;
 
 /*Mobile Horizontal*/
 @media  (min-width: 321px) and (max-width: 480px){
+<<<<<<< HEAD
 /*.formatoBody1 {  
     display: grid;
     grid-template-columns:1fr;
@@ -1232,6 +1190,11 @@ padding-right:30px ;
 	position: relative ;
 left: 26px!important
 }
+=======
+
+
+  
+>>>>>>> nosotros
 /*Servicios*/
 .formatoBodyServicios {  
     display: grid;
@@ -1679,11 +1642,17 @@ left:0px;
 
 
 
+<<<<<<< HEAD
   
 
 @media (min-width: 1025px){
+=======
+  @media  (min-width: 1025px){
+
+  
+>>>>>>> nosotros
 /*Nosotros*/
-  .formatoBodyNosotros {  
+  /*.formatoBodyNosotros {  
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 800px 110px;
@@ -1706,8 +1675,8 @@ left:0px;
   }
   footer{
   	grid-area: footer;
-  }
-  .mainNosotros{
+  }*/
+  /*.mainNosotros{
   	display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:  auto auto auto auto;
@@ -1720,10 +1689,10 @@ left:0px;
       "mainNosotros__formatoDiv--h4 mainNosotros__formatoDiv--h4"
       "timon timon";
     width: 100%;
-    height: 100%;
+    height: 100%;*/
 
-  }
-  .mainNosotros__formatoDiv--h2{
+  /*}*/
+  /*.mainNosotros__formatoDiv--h2{
   	grid-area: mainNosotros__formatoDiv--h2;
   	line-height: 2;
 text-align: center;
@@ -1745,8 +1714,8 @@ font-size: 35px;
 text-align: center;
 font-family:'Cormorant', serif ;
 font-size: 35px;  
-  }
-  .timon{
+  }*/
+  /*.timon{
 
   	grid-area: timon;
   	width:200px ;
@@ -1756,7 +1725,7 @@ font-size: 35px;
   top:550px;
   right:100px;
 
-  }
+  }*/
 
 /*Pagina Servicios*/
 .formatoBodyServicios {  
