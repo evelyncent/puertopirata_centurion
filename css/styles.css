@@ -297,6 +297,129 @@ height: 300px;
 
 }
 
+/*Eventos*/
+
+
+  .Eventos{
+    
+      width: 100%;
+      height: 100%;
+      background-color:#FCFAE2 ;
+      position: absolute;
+}
+.card1{
+  position: relative;
+  top: 500px;
+}
+.card2{
+  position: relative;
+  top: 500px;
+}
+
+
+.Eventos__divDescripcionTitulo--pDescripcion{
+    
+    line-height: 1.5;
+text-align: center;
+font-family:'Cormorant', serif ;
+font-size: 35px;
+display: flex;
+justify-content: center;
+position: absolute;
+top: 128px;  
+}
+.Eventos__divDescripcionTitulo--pTitulo{
+    
+   
+font-family:'Cormorant', serif ;
+font-size: 40px;
+display: flex;
+
+position:absolute;
+top:350px;
+
+}
+.fotos__img--primero{
+    
+    width:750px ;
+  height: 450px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  bottom:280px;
+  }
+  .fotos__img--segundo{
+   
+    width:750px ;
+  height: 450px;
+  display: flex;
+  padding-top:10px;
+  position: relative;
+  bottom:550px;
+  left: 750px;
+  }
+  .fotos__img--tercero{
+   
+width:650px ;
+  height: 450px;
+  position: relative;
+  left:60px;
+  bottom:800px;
+  }
+  .fotos__img--cuarto{
+    
+width:750px ;
+  height: 450px;
+  position: relative;
+  bottom:1050px;
+  left: 800px;
+  }
+  .fotos__img--quinto{
+   
+width:750px ;
+  height: 450px;
+  position: relative;
+  left:40px;
+  bottom:1300px;
+  }
+  .fotos__tituloFotos--primero{
+   
+    text-align: center;
+font-family:'Cormorant', serif ;
+font-size: 35px;
+  font-family:'Dancing Script', cursiva;
+  color: white;
+  position: relative;
+  right:100px;
+  bottom:320px;
+
+  }
+ 
+.img1A{
+
+ text-align: center;
+font-family:'Cormorant', serif ;
+font-size: 25px;
+position: relative;
+top:80px;
+}
+.box1{
+background-color: #D1F2EB;
+background-size: cover;
+width: 500px;
+height: 300px;
+position: relative;
+bottom:700px;
+left:900px;
+
+}
+
+.footerEventos{
+  position: relative;
+
+  top:1800px;
+}
+
 .Servicios{
 background-color: #FCFAE2;
 position:relative;
@@ -427,328 +550,25 @@ footer a p.index-nav1__tituloLogo--formatoTitulo{
 
 }
 
-/*Eventos*/
-.formatoBodyEventos{
-  	display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows: 110px 440px 110px;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header "
-      "Eventos "
-      "footer ";
-    width: 100%;
-    height: 100%;
+
+   
+
+
+    
+ 
+ 
   
-  }
 
-  header{
-  	grid-area: header;
-  }
-  .Eventos{
-  	grid-area: Eventos;
-  }
-  footer{
-  grid-area: footer;
-}
-.Eventos{
-  	grid-area: Eventos;
-  	display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows: repeat(6,auto);
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "Eventos__divDescripcionTitulo "
-    "fotos1  "
-    "fotos2 "
-    "fotos3 "
-    "fotos4 "
-    "fotos5 ";
-      width: 100%;
-      height: 100%;
-      background-color:#FCFAE2 ;
-
-}
-.Eventos__divDescripcionTitulo{
-	grid-area:Eventos__divDescripcionTitulo;
-}
-.fotos1{
-grid-area: fotos1;
-
-}
-.fotos2{
-	grid-area: fotos2;
-
-}
-.fotos3{
-	grid-area: fotos3;
-
-}
-.fotos4{
-	grid-area: fotos4;
-
-}
-.fotos5{
-	grid-area: fotos5;
-	
-}
-.Eventos__divDescripcionTitulo--pDescripcion{
     
-    line-height: 1.5;
-text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 35px;
-display: flex;
-justify-content: center;
-position: absolute;  
-}
-.Eventos__divDescripcionTitulo--pTitulo{
-    
-    text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 40px;
-display: flex;
-justify-content: center;
-position:relative;
-top:150px;
-left:10px;
+ 
 
-}
-.fotos__img--primero{
-    
-    width:750px ;
-  height: 450px;
-  display: flex;
-  position: relative;
-  left: 20px;
-  bottom:280px;
-  }
-  .fotos__img--segundo{
-   
-    width:750px ;
-  height: 450px;
-  display: flex;
-  padding-top:10px;
-  position: relative;
-  bottom:550px;
-  left: 750px;
-  }
-  .fotos__img--tercero{
-   
-width:650px ;
-  height: 450px;
-  position: relative;
-  left:60px;
-  bottom:800px;
-  }
-  .fotos__img--cuarto{
-    
-width:750px ;
-  height: 450px;
-  position: relative;
-  bottom:1050px;
-  left: 800px;
-  }
-  .fotos__img--quinto{
-   
-width:750px ;
-  height: 450px;
-  position: relative;
-  left:40px;
-  bottom:1300px;
-  }
-  .fotos__tituloFotos--primero{
-   
-    text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  right:100px;
-  bottom:320px;
+ 
 
-  }
-  .fotos__tituloFotos--segundo{
-   
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  bottom:600px;
-  left:755px;
-  }
-  .fotos__tituloFotos--tercero{
-    
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: darkred;
-  position: relative;
-  right:150px;
-  bottom:1400px;
-
-  }
-.fotos__tituloFotos--cuarto{
-   
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  bottom:1100px;
-  left:820px;
-}
-.fotos__tituloFotos--quinto{
-    
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: darkred;
-  position: relative;
-  right:150px;
-  bottom:10px;
+ 
 
 
-}
-.img1A{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:80px;
 
 
-}
-.img1B{
-    
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:120px;
-
-}
-.img2C{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:150px;
-right:10px;
-
-}
-.img2D{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:50px;
-right:10px;
-
-}
-.img3E{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:78px;
-left: 10px;
-
-}
-.img3F{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top: 142px;
-left:10px;
-
-}
-.img4G{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:120px;
-lef:200px;
-
-}
-.img5H{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top: 70px;
-
-}
-.img5I{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:100px;
-
-}
-.box1{
-background-color: #D1F2EB;
-background-size: cover;
-width: 500px;
-height: 300px;
-position: relative;
-bottom:700px;
-left:900px;
-
-}
-.box2{
-    background-color: #D1F2EB;
-background-size: cover;
-width: 500px;
-height: 300px;
-position: relative;
-bottom:1000px;
-left:100px;
-
-}
-.box3{
-background-color:#D1F2EB;
-background-size: cover;
-width:500px;
-height:300px;
-position:relative;
-bottom:1200px;
-left:800px;
-}
-.box4{
-background-color: #D1F2EB;
-background-size: cover;
-width: 500px;
-height: 300px;
-position: relative;
-bottom:1450px;
-left:100px;
-}
-.box5{
-background-color: #D1F2EB;
-background-size: cover;
-width:500px;
-height:300px;
-position:relative;
-bottom:1700px;
-left:900px; 
-}
-
-
-}
 
 
     
@@ -874,332 +694,6 @@ footer a p.index-nav1__tituloLogo--formatoTitulo{
 	margin-top:72px;
 
 }
-/*Eventos*/
-.formatoBodyEventos{
-  	display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows: 110px 1500px 110px;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header "
-      "Eventos "
-      "footer ";
-    width: 100%;
-    height: 100%;
-  
-  }
-
-  header{
-  	grid-area: header;
-  }
-  .Eventos{
-  	grid-area:Eventos;
-  }
-  footer{
-  grid-area: footer;
-}
-.Eventos{
-  	grid-area: Eventos;
-  	display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows: repeat(6,auto);
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "Eventos__divDescripcionTitulo "
-    "fotos1  "
-    "fotos2 "
-    "fotos3 "
-    "fotos4 "
-    "fotos5 ";
-      width: 100%;
-      height: 100%;
-      background-color:#FCFAE2 ;
-
-}
-.Eventos__divDescripcionTitulo{
-	grid-area:Eventos__divDescripcionTitulo;
-}
-.fotos1{
-grid-area: fotos1;
-
-}
-.fotos2{
-	grid-area: fotos2;
-
-}
-.fotos3{
-	grid-area: fotos3;
-
-}
-.fotos4{
-	grid-area: fotos4;
-
-}
-.fotos5{
-	grid-area: fotos5;
-	
-}
-.Eventos__divDescripcionTitulo--pDescripcion{
-    
-    line-height: 1.5;
-text-align: center;
-font-family:'Cormorant', serif ;
-font-size:15px;
-display: flex;
-justify-content: center;
-position: absolute;  
-right:-1px ;
-}
-.Eventos__divDescripcionTitulo--pTitulo{
-    
-    text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 14px;
-display: flex;
-justify-content: center;
-position:absolute;
-top:189px;
-left:122px;
-
-}
-.fotos__img--primero{
-    
-    width:305px ;
-  height: 180px;
-  display: flex;
-  position: relative;
-  left:37px;
- bottom:-69px;
-  }
-  .fotos__img--segundo{
-   
-    width:305px ;
-  height: 180px;
-  display: flex;
-  padding-top:10px;
-  position: relative;
-  bottom:-88px;
-  left: 39px;
-  }
-  .fotos__img--tercero{
-   
-width:305px ;
-  height: 180px;
-  position: relative;
-  left:30px;
-  bottom:-108px;
-  }
-  .fotos__img--cuarto{
-    
-width:305px ;
-  height: 180px;
-  position: relative;
-  bottom:-108px;
-  left: 31px;
-  }
-  .fotos__img--quinto{
-   
-width:305px ;
-  height: 180px;
-  position: relative;
-  left:37px;
-  bottom:-116px;
-  }
-  .fotos__tituloFotos--primero{
-   
-    text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 15px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  
-  right:11px;
-  bottom:-49px;
-
-  }
-  .fotos__tituloFotos--segundo{
-   
-font-size: 15px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  bottom:-66px;
-  left:153px;
-  }
-  .fotos__tituloFotos--tercero{
-    
-font-size: 15px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  right:-160px;
-  bottom:-85px;
-
-  }
-.fotos__tituloFotos--cuarto{
-   
-font-size: 15px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  bottom:-81px;
-  left:153px;
-}
-.fotos__tituloFotos--quinto{
-    
-font-size: 15px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  right:-146px;
-  bottom:-84px;
-
-
-}
-.img1A{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size:15px;
-position: relative;
-top:7px;
-right:13px;
-
-
-}
-.img1B{
-    
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 15px;
-position: relative;
-top:26px;
-
-}
-.img2C{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 15px;
-position: relative;
-top:4px;
-right:10px;
-
-}
-.img2D{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 15px;
-position: relative;
-top:15px;
-right:10px;
-
-}
-.img3E{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 15px;
-position: relative;
-top:2px;
-left:-3px;
-
-}
-.img3F{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 15px;
-position: relative;
-top: 9px;
-left:-3px;
-
-}
-.img4G{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 15px;
-position: relative;
-top:-2px;
-lef:200px;
-
-}
-.img5H{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 15px;
-position: relative;
-top:9px;
-
-}
-.img5I{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 15px;
-position: relative;
-top:22px;
-
-}
-.box1{
-background-color: #D1F2EB;
-background-size: cover;
-width:: 100px;
-height::73px;
-position: relative;
-bottom:-61px;
-left:0px;
-
-}
-.box2{
-    background-color: #D1F2EB;
-background-size: cover;
-width:: 200px;
-height::80px;
-position: relative;
-bottom:-82px;
-left:2px;
-
-}
-.box3{
-background-color:#D1F2EB;
-background-size: cover;
-width: 376px;
-height:57px;
-position:relative;
-bottom:-96px;
-left:1px;
-}
-.box4{
-background-color: #D1F2EB;
-background-size: cover;
-width:: 200px;
-height:: 350px;
-position: relative;
-bottom:-97px;
-left:2px;
-}
-.box5{
-background-color: #D1F2EB;
-background-size: cover;
-width:375px;
-height: 102px;
-position:relative;
-bottom:-110px;
-left:0px; 
-}
-
-
-}
-
 
 
 
@@ -1212,81 +706,6 @@ left:0px;
 
   
 
-/*Nosotros*/
-  /*.formatoBodyNosotros {  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 800px 110px;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header header"
-      "mainNosotros mainNosotros"
-      "footer footer";
-    width: 100%;
-    height: 100%;
-  }
-
-  header{
-  	grid-area: header;
-  }
-  .mainNosotros{
-  	grid-area: mainNosotros;
-  }
-  footer{
-  	grid-area: footer;
-  }*/
-  /*.mainNosotros{
-  	display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:  auto auto auto auto;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "mainNosotros__formatoDiv--h2 mainNosotros__formatoDiv--h2"
-      "mainNosotros__formatoDiv--h3 mainNosotros__formatoDiv--h3"
-      "mainNosotros__formatoDiv--h4 mainNosotros__formatoDiv--h4"
-      "timon timon";
-    width: 100%;
-    height: 100%;*/
-
-  /*}*/
-  /*.mainNosotros__formatoDiv--h2{
-  	grid-area: mainNosotros__formatoDiv--h2;
-  	line-height: 2;
-text-align: center;
-font-family:'Cormorant', serif ;
-padding-top: 100px;
-font-size:35px ;
-
-  }
-  .mainNosotros__formatoDiv--h3{
-  	grid-area: mainNosotros__formatoDiv--h3;
-  	 line-height: 2;
-text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 35px;
-  }
-  .mainNosotros__formatoDiv--h4{
-  	grid-area: mainNosotros__formatoDiv--h4;
-  	line-height: 2;
-text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 35px;  
-  }*/
-  /*.timon{
-
-  	grid-area: timon;
-  	width:200px ;
-  height: 200px;
-  display: flex;
-  position:relative;
-  top:550px;
-  right:100px;
-
-  }*/
 
 /*Pagina Servicios*/
 .formatoBodyServicios {  
@@ -1386,328 +805,7 @@ font-size: 35px;
 
 
 }
-/*Eventos*/
 
-.formatoBodyEventos {  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 3000px 110px;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header header"
-      "Eventos Eventos"
-      "footer footer";
-    width:100%;
-    height: 100%;
-  }
-
-  header{
-  	grid-area: header;
-
-  }
-  
-  footer{
-  	grid-area: footer;
-
-  }
-  .Eventos{
-  	grid-area: Eventos;
-  	display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6,auto);
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "Eventos__divDescripcionTitulo Eventos__divDescripcionTitulo"
-    "fotos1 fotos1 "
-    "fotos2 fotos2"
-    "fotos3 fotos3"
-    "fotos4 fotos4"
-    "fotos5 fotos5";
-      width: 100%;
-      height: 100%;
-      background-color:#FCFAE2 ;
-
-}
-.Eventos__divDescripcionTitulo{
-	grid-area:Eventos__divDescripcionTitulo;
-}
-.fotos1{
-grid-area: fotos1;
-height: 100px;
-}
-.fotos2{
-	grid-area: fotos2;
-height: 100px;
-}
-.fotos3{
-	grid-area: fotos3;
-height: 100px;
-}
-.fotos4{
-	grid-area: fotos4;
-height: 100px;
-}
-.fotos5{
-	grid-area: fotos5;
-	height: 100px;
-}
-.Eventos__divDescripcionTitulo--pDescripcion{
-    
-    line-height: 1.5;
-text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 35px;
-display: flex;
-justify-content: center;
-position: absolute;  
-}
-.Eventos__divDescripcionTitulo--pTitulo{
-    
-    text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 40px;
-display: flex;
-justify-content: center;
-position:relative;
-top:150px;
-left:10px;
-
-}
-.fotos__img--primero{
-    
-    width:750px ;
-  height: 450px;
-  display: flex;
-  position: relative;
-  left: 20px;
-  bottom:280px;
-  }
-  .fotos__img--segundo{
-   
-    width:750px ;
-  height: 450px;
-  display: flex;
-  padding-top:10px;
-  position: relative;
-  bottom:550px;
-  left: 750px;
-  }
-  .fotos__img--tercero{
-   
-width:650px ;
-  height: 450px;
-  position: relative;
-  left:60px;
-  bottom:800px;
-  }
-  .fotos__img--cuarto{
-    
-width:750px ;
-  height: 450px;
-  position: relative;
-  bottom:1050px;
-  left: 800px;
-  }
-  .fotos__img--quinto{
-   
-width:750px ;
-  height: 450px;
-  position: relative;
-  left:40px;
-  bottom:1300px;
-  }
-  .fotos__tituloFotos--primero{
-   
-    text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  right:100px;
-  bottom:320px;
-
-  }
-  .fotos__tituloFotos--segundo{
-   
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  bottom:600px;
-  left:755px;
-  }
-  .fotos__tituloFotos--tercero{
-    
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  right:-592px;
-  bottom:854px;
-
-  }
-.fotos__tituloFotos--cuarto{
-   
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  bottom:1103px;
-  left:824px;
-}
-.fotos__tituloFotos--quinto{
-    
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  right:-640px;
-  bottom:1355px;
-
-
-}
-.img1A{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:80px;
-
-
-}
-.img1B{
-    
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:120px;
-
-}
-.img2C{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:150px;
-right:10px;
-
-}
-.img2D{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:50px;
-right:10px;
-
-}
-.img3E{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:78px;
-left: 10px;
-
-}
-.img3F{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top: 142px;
-left:10px;
-
-}
-.img4G{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:120px;
-lef:200px;
-
-}
-.img5H{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top: 70px;
-
-}
-.img5I{
-
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:100px;
-
-}
-.box1{
-background-color: #D1F2EB;
-background-size: cover;
-width: 500px;
-height: 300px;
-position: relative;
-bottom:700px;
-left:900px;
-
-}
-.box2{
-    background-color: #D1F2EB;
-background-size: cover;
-width: 500px;
-height: 300px;
-position: relative;
-bottom:1000px;
-left:100px;
-
-}
-.box3{
-background-color:#D1F2EB;
-background-size: cover;
-width:500px;
-height:300px;
-position:relative;
-bottom:1200px;
-left:800px;
-}
-.box4{
-background-color: #D1F2EB;
-background-size: cover;
-width: 500px;
-height: 300px;
-position: relative;
-bottom:1450px;
-left:100px;
-}
-.box5{
-background-color: #D1F2EB;
-background-size: cover;
-width:500px;
-height:300px;
-position:relative;
-bottom:1700px;
-left:900px; 
-}
-
-
-}
 /*GALERIA*/
 
 .formatoBodyGaleria{  
