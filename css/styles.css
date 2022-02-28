@@ -310,10 +310,13 @@ height: 300px;
 .card1{
   position: relative;
   top: 500px;
+  width: 1000px;
 }
 .card2{
   position: relative;
   top: 500px;
+  width: 1000px;
+
 }
 
 
