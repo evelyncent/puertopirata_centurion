@@ -393,13 +393,14 @@ left:900px;
     justify-content: flex-start;
     position: relative;
     top:150px;
-    left: 20px;
+   
     line-height:1.2;
     font-family:'Cormorant', serif ;
     font-size:30px ;
     background-color: #D1F2EB;
     text-shadow:3px 3px 3px white;
     box-shadow: 1px 1px 1px grey;
+
   
 
   }
@@ -434,6 +435,12 @@ left:900px;
     height:700px;
     
     top:-300px;
+  }
+  .Servicios__div{
+    position: relative;
+    top: 50px;
+    right: 40px;
+    
   }
 
 .Servicios{
