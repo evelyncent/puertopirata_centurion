@@ -384,135 +384,80 @@ left:900px;
   top:320px;
 }
 
-.Servicios{
-background-color: #FCFAE2;
-position:relative;
-width: 100%;
-height: 100%;
-}
+/*SERVICIOS*/
 
-
-
-  /*Mobile Horizontal*/
-  @media  (max-width: 320px){
-
-  
-  
-
-/*Servicios*/
-.formatoBodyServicios {  
-    display: grid;
-    grid-template-columns: 375px;
-    grid-template-rows: 105px 600px 105px;
-    grid-auto-columns: 375px;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header "
-      " Servicios "
-      "footer ";
-    width: 100%;
-    height: 100%;
-  }
-
-  header{
-  	grid-area: header;
-  }
- 
-  footer{
-  	grid-area: footer;
-  }
-  .Servicios{
-  	grid-area:Servicios;
-  	display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Servicios__div--titulo "
-      "Servicios__div__ul  "
-      "div__video";
+.Servicios__div--titulo{
     
-   width: 100%;
-   height: 100%;
-
-   	
-  }
-
-  .Servicios__div--titulo{
-  	grid-area: Servicios__div--titulo;
-  	text-align: center;
-  	display: flex;
-  	justify-content: center;
-  	position: absolute;
-  	top:15px;
-  	left:15px;
-  	line-height:1.2;
-  	font-family:'Cormorant', serif ;
-  	font-size:14px ;
-  	background-color: #D1F2EB;
-  	text-shadow:3px 3px 3px white;
-  	box-shadow: 1px 1px 1px grey;
-  	height: 30px;
-  	padding-top:10px ;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top:150px;
+    left: 20px;
+    line-height:1.2;
+    font-family:'Cormorant', serif ;
+    font-size:30px ;
+    background-color: #D1F2EB;
+    text-shadow:3px 3px 3px white;
+    box-shadow: 1px 1px 1px grey;
   
 
   }
 
   .Servicios__div__ul{
-  	grid-area: Servicios__div__ul;
-  	display: flex;
-  	flex-direction: column;
-  	text-align: center;
-  	justify-content: center;
-  	position:relative;
-  	top:70px;
-  	left:75px;
-  	line-height:1.5 ;
-  	font-family:'Cormorant', serif ;
-  	font-size:12px ;
-  	background-color:#D1F2EB;
-  	width:180px;
-  	height:350px;
-  	text-shadow:3px 3px 3px white;
-  	box-shadow: 1px 1px 1px grey;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position:relative;
+    top: 20px;
+    left:65px;
+    line-height:1.5 ;
+    font-family:'Cormorant', serif ;
+    font-size:20px ;
+    background-color:#D1F2EB;
+    width:500px;
+    height:650px;
+    text-shadow:3px 3px 3px white;
+    box-shadow: 1px 1px 1px grey;
   
 
 
   }
   .div__video{
-  	grid-area: div__video;
-  	display: flex;
-  	flex-direction: column;
-  	position: absolute;
-  	margin-top:0px;
-  	left:10px;
-
-  	
-  	width:310px;
-  	height:160px;
+    
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width:700px;
+    height:700px;
+    justify-content: flex-end;
+    top:-300px;
   }
-footer a p.index-nav1__tituloLogo--formatoTitulo{
-  color: black;
-  font-size:25px;
-  font-family: 'Cormorant', serif;
-  font-weight:bold ;
-  font-style: normal;
-  text-shadow:2px 2px 2px grey;
+
+.Servicios{
+background-color: #FCFAE2;
+position:relative;
+width:auto;
+height:1300px ;
+}
+.footerServicios{
   position: relative;
-  top: -19px;
 
-
+  top:0px;
 }
-.index-nav1__ul1{
-	position: absolute;
-	left:0px;
-	display: flex;
-	margin-top:72px;
 
-}
+
+
+  /*Mobile Horizontal*/
+  /*@media  (max-width: 320px){
+*/
+  /*Mobile Horizontal*/
+/*@media  (min-width: 321px) and (max-width: 480px)
+*/
+  
+
 
 
    
@@ -541,123 +486,7 @@ footer a p.index-nav1__tituloLogo--formatoTitulo{
 
 
 
-/*Mobile Horizontal*/
-@media  (min-width: 321px) and (max-width: 480px){
 
-/*Servicios*/
-.formatoBodyServicios {  
-    display: grid;
-    grid-template-columns: 375px;
-    grid-template-rows: 105px 600px 105px;
-    grid-auto-columns: 375px;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header "
-      " Servicios "
-      "footer ";
-    width: 100%;
-    height: 100%;
-  }
-
-  header{
-  	grid-area: header;
-  }
- 
-  footer{
-  	grid-area: footer;
-  }
-  .Servicios{
-  	grid-area:Servicios;
-  	display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Servicios__div--titulo "
-      "Servicios__div__ul  "
-      "div__video";
-    
-   width: 100%;
-   height: 100%;
-
-   	
-  }
-
-  .Servicios__div--titulo{
-  	grid-area: Servicios__div--titulo;
-  	text-align: center;
-  	display: flex;
-  	justify-content: center;
-  	position: absolute;
-  	top:15px;
-  	left:30px;
-  	line-height:1.2;
-  	font-family:'Cormorant', serif ;
-  	font-size:14px ;
-  	background-color: #D1F2EB;
-  	text-shadow:3px 3px 3px white;
-  	box-shadow: 1px 1px 1px grey;
-  	height: 30px;
-  	padding-top:10px ;
-  
-
-  }
-
-  .Servicios__div__ul{
-  	grid-area: Servicios__div__ul;
-  	display: flex;
-  	flex-direction: column;
-  	text-align: center;
-  	justify-content: center;
-  	position:relative;
-  	top:70px;
-  	left:90px;
-  	line-height:1.5 ;
-  	font-family:'Cormorant', serif ;
-  	font-size:12px ;
-  	background-color:#D1F2EB;
-  	width:180px;
-  	height:350px;
-  	text-shadow:3px 3px 3px white;
-  	box-shadow: 1px 1px 1px grey;
-  
-
-
-  }
-  .div__video{
-  	grid-area: div__video;
-  	display: flex;
-  	flex-direction: column;
-  	position: absolute;
-  	margin-top:0px;
-  	left:30px;
-
-  	
-  	width:310px;
-  	height:160px;
-  }
-footer a p.index-nav1__tituloLogo--formatoTitulo{
-  color: black;
-  font-size:25px;
-  font-family: 'Cormorant', serif;
-  font-weight:bold ;
-  font-style: normal;
-  text-shadow:2px 2px 2px grey;
-  position: relative;
-  top: -19px;
-
-
-}
-.index-nav1__ul1{
-	position: absolute;
-	le: 200px;
-	display: flex;
-	margin-top:72px;
-
-}
 
 
 
@@ -668,109 +497,7 @@ footer a p.index-nav1__tituloLogo--formatoTitulo{
 
   @media  (min-width: 1025px){
 
-  
-
-
-/*Pagina Servicios*/
-.formatoBodyServicios {  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 800px 110px;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header header"
-      " Servicios Servicios"
-      "footer footer";
-    width: 100%;
-    height: 100%;
-  }
-
-  header{
-  	grid-area: header;
-  }
-  .Servicios{
-  	grid-area:Servicios;
-  }
-  footer{
-  	grid-area: footer;
-  }
-  .Servicios{
-  	display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Servicios__div--titulo Servicios__div--titulo"
-      "Servicios__div__ul div__video ";
-    
-   width: 100%;
-   height: 100%;
-
-   	
-  }
-
-  .Servicios__div--titulo{
-  	grid-area: Servicios__div--titulo;
-  	text-align: center;
-  	display: flex;
-  	justify-content: center;
-  	position: absolute;
-  	top:35px;
-  	left: 20px;
-  	line-height:1.2;
-  	font-family:'Cormorant', serif ;
-  	font-size:30px ;
-  	background-color: #D1F2EB;
-  	text-shadow:3px 3px 3px white;
-  	box-shadow: 1px 1px 1px grey;
-  
-
-  }
-
-  .Servicios__div__ul{
-  	grid-area: Servicios__div__ul;
-  	display: flex;
-  	flex-direction: column;
-  	text-align: center;
-  	justify-content: center;
-  	position:relative;
-  	top:100px;
-  	left:60px;
-  	line-height:1.5 ;
-  	font-family:'Cormorant', serif ;
-  	font-size:20px ;
-  	background-color:#D1F2EB;
-  	width:500px;
-  	height:650px;
-  	text-shadow:3px 3px 3px white;
-  	box-shadow: 1px 1px 1px grey;
-  
-
-
-  }
-  .div__video{
-  	grid-area: div__video;
-  	display: flex;
-  	flex-direction: column;
-  	position: absolute;
-  	padding-top:0px;
-  	margin-top: 0;
-  	right: 50px;
-  	bottom: 50px;
-  	
-  	width:700px;
-  	height:700px;
-
-  	
-
-
-}
-
-/*GALERIA*/
+  /*GALERIA*/
 
 .formatoBodyGaleria{  
     display: grid;
