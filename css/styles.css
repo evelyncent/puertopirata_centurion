@@ -302,23 +302,42 @@ height: 300px;
 
   .Eventos{
     
-      width: 100%;
-      height: 100%;
+      width: auto;
+      height: auto;
       background-color:#FCFAE2 ;
-      position: absolute;
+      position: relative;
 }
 .card1{
   position: relative;
   top: 500px;
-  width: 1000px;
+  
 }
 .card2{
   position: relative;
   top: 500px;
-  width: 1000px;
+  
 
 }
+.card3{
+  position: relative;
+  top: 500px;
+  
 
+}
+.card4{
+  position: relative;
+  top: 500px;
+}
+.card5{
+  position: relative;
+  top: 500px;
+}
+
+.card-text{
+  font-family:'Cormorant', serif ;
+  font-size: 25px;
+  color: #FCFAE2;
+}
 
 .Eventos__divDescripcionTitulo--pDescripcion{
     
@@ -338,7 +357,7 @@ font-family:'Cormorant', serif ;
 font-size: 40px;
 display: flex;
 
-position:absolute;
+position:relative;
 top:350px;
 
 }
@@ -420,7 +439,7 @@ left:900px;
 .footerEventos{
   position: relative;
 
-  top:1800px;
+  top:450px;
 }
 
 .Servicios{
