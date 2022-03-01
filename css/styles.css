@@ -301,42 +301,45 @@ height: 300px;
 
 
   .Eventos{
-    
-      width: auto;
-      height: auto;
-      background-color:#FCFAE2 ;
-      position: relative;
+    width: auto;
+    height: auto;
+    background-color:#FCFAE2 ;
+    position: relative;
+
 }
+
 .card1{
   position: relative;
-  top: 500px;
-  
+  top: 350px;
 }
 .card2{
   position: relative;
-  top: 500px;
+  top: 350px;
   
 
 }
 .card3{
   position: relative;
-  top: 500px;
+  top: 350px;
   
 
 }
 .card4{
   position: relative;
-  top: 500px;
+  top: 350px;
 }
 .card5{
   position: relative;
-  top: 500px;
+  top: 350px;
 }
 
 .card-text{
   font-family:'Cormorant', serif ;
   font-size: 25px;
   color: #FCFAE2;
+}
+.Eventos__divDescripcionTitulo{
+
 }
 
 .Eventos__divDescripcionTitulo--pDescripcion{
@@ -347,7 +350,7 @@ font-family:'Cormorant', serif ;
 font-size: 35px;
 display: flex;
 justify-content: center;
-position: absolute;
+position: relative;
 top: 128px;  
 }
 .Eventos__divDescripcionTitulo--pTitulo{
@@ -355,76 +358,16 @@ top: 128px;
    
 font-family:'Cormorant', serif ;
 font-size: 40px;
-display: flex;
+
 
 position:relative;
-top:350px;
+top:250px;
+
 
 }
-.fotos__img--primero{
-    
-    width:750px ;
-  height: 450px;
-  display: flex;
-  position: relative;
-  left: 20px;
-  bottom:280px;
-  }
-  .fotos__img--segundo{
-   
-    width:750px ;
-  height: 450px;
-  display: flex;
-  padding-top:10px;
-  position: relative;
-  bottom:550px;
-  left: 750px;
-  }
-  .fotos__img--tercero{
-   
-width:650px ;
-  height: 450px;
-  position: relative;
-  left:60px;
-  bottom:800px;
-  }
-  .fotos__img--cuarto{
-    
-width:750px ;
-  height: 450px;
-  position: relative;
-  bottom:1050px;
-  left: 800px;
-  }
-  .fotos__img--quinto{
-   
-width:750px ;
-  height: 450px;
-  position: relative;
-  left:40px;
-  bottom:1300px;
-  }
-  .fotos__tituloFotos--primero{
-   
-    text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 35px;
-  font-family:'Dancing Script', cursiva;
-  color: white;
-  position: relative;
-  right:100px;
-  bottom:320px;
 
-  }
  
-.img1A{
 
- text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 25px;
-position: relative;
-top:80px;
-}
 .box1{
 background-color: #D1F2EB;
 background-size: cover;
@@ -439,7 +382,7 @@ left:900px;
 .footerEventos{
   position: relative;
 
-  top:450px;
+  top:320px;
 }
 
 .Servicios{
