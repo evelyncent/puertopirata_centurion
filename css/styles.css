@@ -128,7 +128,7 @@ footer{
   top:100px;
 }
 
-  footer a p.index-nav1__tituloLogo--formatoTitulo{
+  footer  p.index-nav1__tituloLogo--formatoTitulo{
   color: black;
   font-size:30px;
   font-family: 'Cormorant', serif;
