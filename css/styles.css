@@ -349,6 +349,27 @@ left:900px;
 
   top:320px;
 }
+.Eventos__divDescripcionTitulo--pDescripcion{
+  animation-name: movimiento;
+  animation-duration: 2s;
+}
+@keyframes movimiento{
+  50%{
+    
+    opacity: 0.1;}
+
+  }
+  .Eventos__divDescripcionTitulo--pTitulo{
+  animation-name: movimiento;
+  animation-duration: 2s;
+}
+@keyframes movimiento{
+  50%{
+    
+    opacity: 0.1;}
+
+  }
+
 
 
 
