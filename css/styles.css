@@ -16,7 +16,17 @@ overflow-x: hidden;
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
 
 
-
+/*Index*/
+.titulo1Carrousel{
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  font-family: 'Cormorant', serif;
+}
+.tituloCarrousel{
+  text-shadow: 2px 2px 2px black;
+  font-size: 25px;
+  font-family: 'Cormorant', serif;
+}
 
 /*NOSOTROS CON BOOTSTRAP*/
 
