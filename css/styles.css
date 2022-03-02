@@ -507,6 +507,11 @@ width: 95%;
 .foto11:hover{
   
  }
+ .footerGaleria{
+  position: relative;
+
+  top:5px;
+ }
 
 
 
