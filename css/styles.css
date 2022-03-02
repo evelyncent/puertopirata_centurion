@@ -384,7 +384,144 @@ left:900px;
   top:320px;
 }
 
-/*SERVICIOS*/
+
+
+   /*GALERIA BOOTSTRAP*/
+
+   .galeria{
+    background-color:#FCFAE2 ;
+    height: auto;
+   }
+   .tituloGaleria{
+  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family:'Cormorant', serif ;
+  font-size: 45px;
+  position: relative;
+ margin-top:200px;
+ bottom: 50px;
+
+}
+/*.fotos{
+  display: flex;
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: flex-start;
+    
+   
+ }*/
+.foto1{
+ width: 90%;
+  transition: width 2s;
+  box-shadow:5px 5px 5px grey;
+  margin-bottom: 80px;
+ }
+
+ .foto1:hover{
+  width:500px;
+ }
+.foto2{
+  width: 90%;
+flex-direction: rows;
+transition: width 2s;
+box-shadow:5px 5px 5px grey;
+margin-bottom: 80px;
+ }
+ .foto2:hover{
+  width:500px;
+ }
+
+.foto4{
+  width: 90%;
+  transition: width 2s;
+  box-shadow:5px 5px 5px grey;
+  margin-bottom: 80px;
+}
+.foto4:hover{
+  width:500px;
+ }
+
+.foto6{
+  width: 95%;
+  transition: width 2s;
+ box-shadow:5px 5px 5px grey;
+ margin-bottom: 80px;
+}
+.foto6:hover{
+  width:500px;
+ }
+.foto7{
+  width: 95%;
+  transition: width 2s;
+  box-shadow:5px 5px 5px grey;
+  margin-bottom: 80px;
+}
+.foto7:hover{
+  width:500px;
+ }
+.foto8{
+  width: 95%;
+  transition: width 2s;
+  box-shadow:5px 5px 5px grey;
+  margin-bottom: 80px;
+}
+.foto8:hover{
+  width:500px;
+ }
+.fotosalon{
+  
+width: 95%;
+
+   transition: width 2s;
+box-shadow:5px 5px 5px grey;
+}
+.fotosalon:hover{
+  width:500px;
+ }
+
+.foto9{
+  width: 95%;
+ transition: width 2s;
+ box-shadow:5px 5px 5px grey;
+}
+.foto9:hover{
+  width:500px;
+ }
+.fotocumple{
+
+width: 95%;
+ transition: width 2s;
+ box-shadow:5px 5px 5px grey;
+}
+.fotocumple:hover{
+  width:500px;
+ }
+.foto11{
+  width: 50%;
+ 
+   transition: width 2s;
+   box-shadow:5px 5px 5px grey;
+}
+.foto11:hover{
+  
+ }
+ .footerGaleria{
+  position: relative;
+
+  top:5px;
+ }
+
+
+
+.Servicios{
+background-color: #FCFAE2;
+position:relative;
+width: 100%;
+height: 100%;
+}
+
 
 .Servicios__div--titulo{
     
@@ -467,8 +604,6 @@ height:1300px ;
 
 
 
-   
-
 
     
  
@@ -506,220 +641,7 @@ height:1300px ;
 
   /*GALERIA*/
 
-.formatoBodyGaleria{  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 1500px 110px;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header header"
-      "galeria galeria"
-      "footer footer";
-    width: 100%;
-    height: 100%;
-  }
 
-  header{
-    grid-area: header;
-  }
   
-  footer{
-    grid-area: footer;
-  }
-  .galeria{
-grid-area: galeria;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(5,auto);
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "tituloGaleria tituloGaleria tituloGaleria"
-    "foto1 foto2 foto4"
-    " foto5 foto6 foto7"
-    "foto8 fotosalon foto60"
-    "foto9 fotocumple foto11";
-      width: 100%;
-      height: 100%;
-      background-color:#FCFAE2 ;
 
-}
-.tituloGaleria{
-  grid-area: tituloGaleria;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  font-family:'Cormorant', serif ;
-  font-size: 45px;
-  position: absolute;
- top:200px;
-left: 650px;
-}
-.fotos{
-  display: flex;
-    grid-gap: 1rem;
-    justify-items: center;
-    align-items: flex-start;
-    flex-direction: rows;
-   position: absolute;
-   left: 70px;
-   top: 150px;
-   
- }
-.foto1{
-  grid-area: foto1;
-  width: 450px;
-  display: flex;
-  flex-direction: rows;
-  position: relative;
-  top: 200px;
-  transition: width 2s;
-  box-shadow:5px 5px 5px grey;
- }
-
- .foto1:hover{
-  width:500px;
- }
-.foto2{
-  grid-area: foto2;
-  width: 450px;
-display: flex;
-flex-direction: rows;
-position: relative;
-  top: 200px;
-  transition: width 2s;
-  box-shadow:5px 5px 5px grey;
- }
- .foto2:hover{
-  width:500px;
- }
-
-.foto4{
-  grid-area: foto4;
-  width: 450px;
-  display: flex;
-    flex-direction: rows;
-    position: relative;
-  top: 200px;
-  transition: width 2s;
-box-shadow:5px 5px 5px grey;
-}
-.foto4:hover{
-  width:500px;
- }
-.foto5{
-  grid-area: foto5;
-  width: 450px;
-  height: 255px;
-  position: absolute;
-  top: 500px;
-  right: 1080px;
-transition: width 2s;
- box-shadow:5px 5px 5px grey;
-  
-}
-.foto5:hover{
-  width:500px;
- }
-.foto6{
-  grid-area: foto6;
-width: 450px;
-position: absolute;
-  top: 500px;
-  left:470px;
-transition: width 2s;
- box-shadow:5px 5px 5px grey;
-}
-.foto6:hover{
-  width:500px;
- }
-.foto7{
-  grid-area: foto7;
-width:450px;
-position: absolute;
-  top: 500px;
-  left: 935px;
-transition: width 2s;
- box-shadow:5px 5px 5px grey;
-}
-.foto7:hover{
-  width:500px;
- }
-.foto8{
-  grid-area:foto8;
-width: 450px;
-position: absolute;
-  top: 800px;
-  right: 1080px;
- transition: width 2s;
-box-shadow:5px 5px 5px grey;
-}
-.foto8:hover{
-  width:500px;
- }
-.fotosalon{
-  grid-area:fotosalon ;
-width: 450px;
-position: absolute;
-  top: 800px;
-  left: 470px;
-   transition: width 2s;
-box-shadow:5px 5px 5px grey;
-}
-.fotosalon:hover{
-  width:500px;
- }
-.foto60{
-  grid-area:foto60 ;
-width: 450px;
-position: absolute;
-  top: 800px;
-  left: 935px;
- transition: width 2s;
- box-shadow:5px 5px 5px grey;
-}
-.foto60:hover{
-  width:500px;
- }
-.foto9{
-  grid-area:foto9;
-width: 450px;
-position: absolute;
-top: 1100px;
-right: 1080px;
- transition: width 2s;
- box-shadow:5px 5px 5px grey;
-}
-.foto9:hover{
-  width:500px;
- }
-.fotocumple{
-  grid-area:fotocumple ;
-width: 450px;
-position: absolute;
-top: 1100px;
-left: 470px;
- transition: width 2s;
- box-shadow:5px 5px 5px grey;
-}
-.fotocumple:hover{
-  width:500px;
- }
-.foto11{
-  grid-area:foto11 ;
-  width: 450px;
-  position: absolute;
-  top: 1100px;
-  left: 935px;
-  height: 250px;
-   transition: width 2s;
-   box-shadow:5px 5px 5px grey;
-}
-.foto11:hover{
-  width:500px;
- }
-    
  
