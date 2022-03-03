@@ -336,7 +336,7 @@ top: 128px;
 }
 .Eventos__divDescripcionTitulo--pTitulo{
     
-   
+
 font-family:'Cormorant', serif ;
 font-size: 40px;
 
@@ -345,8 +345,15 @@ position:relative;
 top:250px;
 
 
-}
 
+}
+.palmeras{
+  display: flex;
+  position: relative;
+  top: 230px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
  
 
 .box1{
