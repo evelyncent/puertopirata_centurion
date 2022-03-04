@@ -40,8 +40,12 @@ overflow-x: hidden;
   position: relative;
   right: 10px;
 }
+
+.nav-link{
+  margin-left:60px;
+}
 .navbar-collapse{
-  margin-left:600px;
+  margin-left:200px;
  
   font-size:17px;
   font-family: 'Cormorant', serif;
@@ -112,8 +116,8 @@ padding-right: 20px;
 }
 .navbar-nav{
  display: flex;
- justify-content: flex-end;
- margin-left: 70px; 
+ justify-content: flex-end;*/
+
 }
 
 
