@@ -129,8 +129,8 @@ footer{
  
 
   
-  position: relative;
-  top:100px;
+  /*position: relative;
+  top:100px;*/
 }
 
   footer  p.index-nav1__tituloLogo--formatoTitulo{
@@ -143,7 +143,11 @@ footer{
   z-index: 1;
 }
 
+.footerIndex{
+  position: relative;
 
+  top:0px;
+ }
 .div-redes1__a{
  margin-left:25px;
 
@@ -176,18 +180,23 @@ footer{
 
 
 .d-block {
-    margin-top: 50px;
-    height: 408px;
-<<<<<<< HEAD
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+
 }
 
 
 .mainIndex {
-    position: relative;
-    height: 524px;
+   
+    height: 600px;
+    width: auto;
+    /*height: 524px;*/
     background: linear-gradient(45deg,white,#F9E79F, #FCFAE2,white);
     background-size: cover;
-    top: 100px;
+    padding:20px;
+
+
 
 }
 h5{
@@ -201,52 +210,38 @@ h5{
   font-style: normal;
   color: #FCFAE2;
 }
-  .ubicacionHome1{
-text-align: center;
-margin-top:400px;
-margin-right:50px;
-text-shadow:2px 2px 2px black;
-}
+
 a{
 	color: black;
 }
 .carousel-inner{
   z-index:0 ;
+
 }
 
 /*NOSOTROS*/
 
 
-.blockquote{
-  display: flex;
-  justify-content: center;
->>>>>>> nosotros
-  position: relative;
-  top: 200px;
-  line-height: 2;
-text-align: center;
-font-family:'Cormorant', serif ;
-font-size: 35px;
-}
+
 
 .mainNosotros {
   background: linear-gradient(45deg, white, #F9E79F, #FCFAE2, white);
-  margin-top: 100px;
-  padding-bottom: 150px;
+  
+  padding-bottom: 100px;
   height: 1000px; }
   .mainNosotros .blockquote {
     font-family: 'Cormorant', serif;
     display: flex;
     justify-content: center;
     position: relative;
-    top: 80px;
-    line-height: 2;
+    top: 100px;
+    line-height:1.5;
     text-align: center;
     font-family: 'Cormorant', serif;
     font-size: 35px; }
 
 .timon {
-  margin-top: 50px;
+  margin-top: 80px;
   width: 200px;
   height: 200px; }
 
