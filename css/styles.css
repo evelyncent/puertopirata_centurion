@@ -4,10 +4,7 @@
 	list-style-type: none;
 	text-decoration: none;
 }
-/*body{
-	
-overflow-x: hidden;
-}*/
+/**/
 
 
 
@@ -281,6 +278,7 @@ font-size: 35px;
   background: linear-gradient(45deg,white,#F9E79F, #FCFAE2,white);
     background-size: cover;
     position: relative;
+    padding:15px;
 
 }
 
@@ -397,7 +395,10 @@ left:900px;
  background: linear-gradient(45deg,white,#F9E79F, #FCFAE2,white);
     background-size: cover;
     height: auto;
-   }
+    width:auto;
+    padding: 30px;
+  }
+
    .tituloGaleria{
   
   display: flex;
@@ -411,101 +412,23 @@ left:900px;
 
 }
 
-.foto1{
- width: 90%;
+.galeria .foto{
+  width: 100%;
+  height: auto;
   transition: width 2s;
   box-shadow:5px 5px 5px grey;
-  margin-bottom: 80px;
- }
-
- .foto1:hover{
-  width:500px;
- }
-.foto2{
-  width: 90%;
-flex-direction: rows;
-transition: width 2s;
-box-shadow:5px 5px 5px grey;
-margin-bottom: 80px;
- }
- .foto2:hover{
-  width:500px;
- }
-
-.foto4{
-  width: 90%;
-  transition: width 2s;
-  box-shadow:5px 5px 5px grey;
-  margin-bottom: 80px;
-}
-.foto4:hover{
-  width:500px;
- }
-
-.foto6{
-  width: 95%;
-  transition: width 2s;
- box-shadow:5px 5px 5px grey;
- margin-bottom: 80px;
-}
-.foto6:hover{
-  width:500px;
- }
-.foto7{
-  width: 95%;
-  transition: width 2s;
-  box-shadow:5px 5px 5px grey;
-  margin-bottom: 80px;
-}
-.foto7:hover{
-  width:500px;
- }
-.foto8{
-  width: 95%;
-  transition: width 2s;
-  box-shadow:5px 5px 5px grey;
-  margin-bottom: 80px;
-}
-.foto8:hover{
-  width:500px;
- }
-.fotosalon{
-  
-width: 95%;
-
-   transition: width 2s;
-box-shadow:5px 5px 5px grey;
-}
-.fotosalon:hover{
-  width:500px;
- }
-
-.foto9{
-  width: 95%;
- transition: width 2s;
- box-shadow:5px 5px 5px grey;
-}
-.foto9:hover{
-  width:500px;
- }
-.fotocumple{
-
-width: 95%;
- transition: width 2s;
- box-shadow:5px 5px 5px grey;
-}
-.fotocumple:hover{
-  width:500px;
- }
-.foto11{
-  width: 50%;
  
-   transition: width 2s;
-   box-shadow:5px 5px 5px grey;
 }
-.foto11:hover{
-  
+
+.foto:hover{
+  width:500px;
  }
+
+
+.galeria .col-lg-6{
+  padding: 20px;
+}
+
  .footerGaleria{
   position: relative;
 
@@ -513,7 +436,7 @@ width: 95%;
  }
 
 
-
+/*SERVICIOS*/
 .Servicios{
 background: linear-gradient(90deg,#F9E79F, #FCFAE2,white);
 position:relative;
