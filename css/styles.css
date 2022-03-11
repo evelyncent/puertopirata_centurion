@@ -44,6 +44,7 @@
 }
 .nav-link{
   margin-left:70px;
+  background-image: linear-gradient(#13F8F9,white)
 }
 .navbar-collapse{
 /*background-image: linear-gradient(#13F8F9,white);*/
