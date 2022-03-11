@@ -372,6 +372,7 @@ left:900px;
   position: relative;
  margin-top:200px;
  bottom: 50px;
+ text-shadow:1px 1px 1px black;
 
 }
 
@@ -477,7 +478,9 @@ height:1300px ;
 .tituloContacto{
   margin-top: 180px;
   margin-bottom: 80px;
-
+  text-shadow:1px 1px 1px black;
+  font-size: 45px;
+  font-family: 'Nunito', sans-serif;
 }
 
 
@@ -494,12 +497,12 @@ height:1300px ;
     width:auto;
   }
 
-./*tamaño{
-  width: 20%;
+.tituloFormulario{
+margin-bottom: 30px;
+text-shadow:1px 1px 1px black;
 }
-.labelTamaño{
-  width: 20%;
-}*/
+
+
   /*Mobile Horizontal*/
   /*@media  (max-width: 320px){
 */
