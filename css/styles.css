@@ -471,6 +471,20 @@ height:1300px ;
 }
 
 
+/*CONTACTO*/
+
+.tituloContacto{
+  margin-top: 180px;
+  margin-bottom: 80px;
+
+}
+
+
+.mapa{
+  border-color:black ;
+  height: 450px;
+  }
+
 
   /*Mobile Horizontal*/
   /*@media  (max-width: 320px){
