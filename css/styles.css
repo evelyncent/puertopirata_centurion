@@ -483,7 +483,15 @@ height:1300px ;
 
 .mapa{
   border-color:black ;
+  border-width: 15px;
   height: 450px;
+  border-style: solid;
+  }
+  .mainContacto{
+    background: linear-gradient(45deg,white,#F9E79F, #FCFAE2,white);
+   
+    height: auto;
+    width:auto;
   }
 
 
