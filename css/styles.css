@@ -17,12 +17,12 @@
 .titulo1Carrousel{
   text-shadow: 2px 2px 2px black;
   color: white;
-  font-family: 'Cormorant', serif;
+ font-family: 'Nunito', sans-serif;
 }
 .tituloCarrousel{
   text-shadow: 2px 2px 2px black;
   font-size: 25px;
-  font-family: 'Cormorant', serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 /*NOSOTROS CON BOOTSTRAP*/
@@ -62,7 +62,7 @@ background-image: linear-gradient(#13F8F9,white);
 .navbar-nav .nav-link {
   color: black;
   font-size:17px;
-  font-family: 'Cormorant', serif;
+  font-family: 'Nunito', sans-serif;
   font-weight:bold ;
   font-style: normal;
   text-shadow: 1px 1px 1px grey;
@@ -77,7 +77,7 @@ background-image: linear-gradient(#13F8F9,white);
 
 .navTitulo{
   font-size:30px;
-  font-family: 'Cormorant', serif;
+  font-family: 'Nunito', sans-serif;
   font-weight:bold;
   font-style: normal;
   text-shadow:2px 2px 2px grey;
@@ -121,7 +121,7 @@ footer{
   footer  p.index-nav1__tituloLogo--formatoTitulo{
   color: black;
   font-size:30px;
-  font-family: 'Cormorant', serif;
+  font-family: 'Nunito', sans-serif;
   font-weight:bold ;
   font-style: normal;
   text-shadow:2px 2px 2px grey;
@@ -187,7 +187,7 @@ h5{
 
 .mainIndex__section--formatoHome{
   font-size:70px;
-  font-family: 'Cormorant', serif;
+  font-family: 'Nunito', sans-serif;
   font-weight:normal ;
   font-style: normal;
   color: #FCFAE2;
@@ -212,14 +212,14 @@ a{
   padding-bottom: 100px;
   height: 1000px; }
   .mainNosotros .blockquote {
-    font-family: 'Cormorant', serif;
+    font-family: 'Nunito', sans-serif;
     display: flex;
     justify-content: center;
     position: relative;
     top: 100px;
     line-height:1.5;
     text-align: center;
-    font-family: 'Cormorant', serif;
+   
     font-size: 35px; }
 
 .timon {
@@ -285,7 +285,7 @@ a{
 }
 
 .card-text{
-  font-family:'Cormorant', serif ;
+  font-family: 'Nunito', sans-serif;
   font-size: 25px;
   color: #FCFAE2;
 }
@@ -297,7 +297,7 @@ a{
     
     line-height: 1.5;
 text-align: center;
-font-family:'Cormorant', serif ;
+font-family: 'Nunito', sans-serif;
 font-size: 35px;
 display: flex;
 justify-content: center;
@@ -305,18 +305,12 @@ position: relative;
 top: 128px;  
 }
 .Eventos__divDescripcionTitulo--pTitulo{
-    
-
-font-family:'Cormorant', serif ;
-font-size: 40px;
-
-
-position:relative;
-top:250px;
-
-
-
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  position:relative;
+  top:250px;
 }
+
 .palmeras{
   display: flex;
   position: relative;
@@ -381,7 +375,7 @@ left:900px;
   display: flex;
   text-align: center;
   align-items: center;
-  font-family:'Cormorant', serif ;
+  font-family: 'Nunito', sans-serif;
   font-size: 45px;
   position: relative;
  margin-top:200px;
@@ -432,7 +426,7 @@ height: 100%;
     top:100px;
    
     line-height:1.2;
-    font-family:'Cormorant', serif ;
+    font-family: 'Nunito', sans-serif;
     font-size:30px ;
     
     text-shadow:2px 2px 2px white;
@@ -448,16 +442,10 @@ height: 100%;
     top: 110px;
    
     line-height:1.2 ;
-    font-family:'Cormorant', serif ;
+    font-family: 'Nunito', sans-serif;
     font-size:20px ;
-   
-   
-    
-    
-  
-
-
   }
+  
   .div__video{
     
     display: flex;
