@@ -202,19 +202,20 @@ a{
   
   padding-bottom: 100px;
   height: 1000px; }
+
   .mainNosotros .blockquote {
     font-family: 'Nunito', sans-serif;
     display: flex;
     justify-content: center;
     position: relative;
-    top: 100px;
-    line-height:1.5;
+    top: 80px;
+    line-height:1.3;
     text-align: center;
    
     font-size: 35px; }
 
 .timon {
-  margin-top: 80px;
+  margin-top: 60px;
   width: 200px;
   height: 200px; }
 
