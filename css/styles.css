@@ -14,10 +14,22 @@
 
 
 /*Index*/
+.redesIndex{
+
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 50px;
+  right:70px;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
 .titulo1Carrousel{
   text-shadow: 2px 2px 2px black;
   color: white;
  font-family: 'Nunito', sans-serif;
+ text-align: center;
 }
 .tituloCarrousel{
   text-shadow: 2px 2px 2px black;
@@ -127,6 +139,8 @@ footer{
 .div-redes1__a{
  margin-left:25px;
 }
+
+
 
 .redes{
   display: flex;
@@ -281,9 +295,7 @@ a{
   font-size: 25px;
   color: #FCFAE2;
 }
-.Eventos__divDescripcionTitulo{
 
-}
 
 .Eventos__divDescripcionTitulo--pDescripcion{
     
@@ -301,6 +313,7 @@ top: 128px;
   font-size: 40px;
   position:relative;
   top:250px;
+  text-align: center;
 }
 
 .palmeras{
@@ -460,6 +473,7 @@ height: 100%;
   padding-top: 120px;
   font-size: 20px;
   font-family: 'Nunito', sans-serif;
+  text-align: center;
 
 }
 .Servicios{
@@ -504,6 +518,8 @@ height:1300px ;
 .tituloFormulario{
 margin-bottom: 30px;
 text-shadow:1px 1px 1px black;
+font-family: 'Nunito', sans-serif;
+text-align: center;
 }
 
 
