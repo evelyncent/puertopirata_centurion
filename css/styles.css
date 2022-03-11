@@ -493,7 +493,12 @@ height:1300px ;
     width:auto;
   }
 
-
+./*tamaño{
+  width: 20%;
+}
+.labelTamaño{
+  width: 20%;
+}*/
   /*Mobile Horizontal*/
   /*@media  (max-width: 320px){
 */
